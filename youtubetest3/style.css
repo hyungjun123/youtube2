@@ -1,0 +1,63 @@
+.active {
+  border: 1px solid black;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  font-size: 50px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  border: 1px solid black;
+}
+
+header b {
+  cursor: pointer;
+}
+
+header div {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+header div:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+header div {
+  border: 1px solid;
+  padding: 16px;
+}
+
+nav {
+  border: 1px solid black;
+}
+
+.item {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.item:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.hello {
+  margin: 30px;
+
+  cursor: pointer;
+}
